@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# Guitar Store 🎸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tienda de guitarras ✨
 
-Currently, two official plugins are available:
+La aplicación permite: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Añadir una lista de guitarras al carrito. ✏️
+2. Añadir unidades de un elemento. 👍
+3. Eliminar elementos en la lista.✖️
+4. Calcular el total a pagar. 💵
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+### Notas adicionales 📗
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+##### Para utlizar la aplicación se deberan:
+
+---
+
+Instalar modulos de node ⬇️ :
+
+```
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Construir ejecutar ⚙️ :
+
+```
+npm run dev
+```
+
+---
+
+### La aplicación fue construido mediante 🔧 :
+
+1. React: 18.2.0 🚀
+2. Typescript
+3. Hooks
+4. Css
+5. Vite: 5.2.0
+
+
+----
+
+##### Nota: La información de los productos se encuentra de forma local en los archivos de la aplicación. 📝
